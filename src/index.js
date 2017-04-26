@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from './reducers';
-import App from './App';
+import App from './components/App/App.js';
 import './styles/index.css';
 
 // Provider = A method that gives us access to the redux store via connect method
