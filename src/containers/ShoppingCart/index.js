@@ -21,9 +21,12 @@ export class ShoppingCart extends Component {
 
   render() {
     return (
-      <ul className={'SC-list'}>
-        {this.renderShoppingCart()}
-      </ul>
+      <div className={'SC-Container'}>
+        <h2 className={'SC-Title'}>Shopping Cart</h2>
+          <ul className={'SC-list'}>
+            {this.renderShoppingCart()}
+          </ul>
+      </div>
     )
   }
 }

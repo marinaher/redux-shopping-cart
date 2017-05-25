@@ -22,9 +22,12 @@ export class Items extends Component {
 
   render() {
     return (
-      <ul className={'Items-list'}>
-       { this.renderList() }
-      </ul>
+      <div className={'Items-Container'}>
+        <h2 className={'List-Title'}>Items List</h2>
+        <ul className={'Items-list'}>
+          { this.renderList() }
+        </ul>
+      </div>
     )
   }
 }
