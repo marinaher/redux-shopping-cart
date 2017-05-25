@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Items from '../../containers/Items';
-import './App.css';
 import ShoppingCart from '../../containers/ShoppingCart';
+import './App.css';
 
 export default class App extends Component {
 
