@@ -12,7 +12,7 @@ export class ShoppingCart extends Component {
         key={item.id} 
         className={'SC-list-item'} 
         onClick={() => removeFromCartDispatch(item.id)}>
-          <img alt="shoppingcartImg" src={item.link} />
+          <img alt="shoppingcartImg" src={item.link} className={'SC-image'}/>
           {item.title}
         </li>
       )

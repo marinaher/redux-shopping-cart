@@ -11,10 +11,10 @@ export class Items extends Component {
     return items.map((item) => (
       <li
         key={item.id}
-        className={'Items.list-item'}
+        className={'Items-list-item'}
         onClick={() => addToCartAction(item)}
       >
-        <img role="presentation" alt={item.title} src={item.link}/>
+        <img role="presentation" alt={item.title} className={'Items-image'} src={item.link}/>
         <span>{item.title}</span>
       </li>
     ))

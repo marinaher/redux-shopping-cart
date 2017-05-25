@@ -1,0 +1,21 @@
+.SC-list{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  width: 50%;
+}
+
+.SC-list-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.SC-image {
+  display: block;
+  height: auto;
+  max-height: 200px;
+  max-width: 200px;
+  width: auto;
+}

@@ -1,0 +1,5 @@
+.App-mainbody {
+  display:flex;
+  overflow: auto;
+  width: 100%;
+}
